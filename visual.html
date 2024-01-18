@@ -1,0 +1,140 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+        background-color: rgb(255, 235, 235);
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+  * {
+  box-sizing: border-box;
+
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+
+.row:after {
+  display: table;
+  clear: both;
+}
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-self:left; 
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+.image {
+  width: 100%;
+  height: auto;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #e2eef1;
+  overflow: hidden;
+  width: 0;
+  height: 50%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: rgb(49, 49, 49);
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row; 
+            align-items: flex-end;
+            justify-content: space-around; 
+            margin: 100px;
+            background-color: rgb(0, 255, 0);
+            
+}
+
+</style>
+</head>
+<body>
+  <div class="body"> </div>
+
+<div class="h2">
+  <a href="index.html">back</a>
+
+<div>
+  <a href="thesistopics.html">thesis topics</a>
+</div>
+</div>
+<div class="row">
+    <div class="column">
+<a href="https://www.youandpea.com/tokyo-irtbbc" target="_blank">
+  <img src="image\tumblr_7ddd4c50cccf17cc5d0f31f6fb9c78c0_1129aa12_1280.jpg" alt="uandp" class="image"> 
+</a>
+</div>
+
+<div class="column">
+<a href="https://artsandculture.google.com/project/barbican" target="_blank">
+<img src="image\barbican.jpeg" alt="barbican" class="image"> 
+</a>
+</div>
+
+<div class="column">
+<a href="https://gallegoana.com/a-tower-for-you" target="_blank">
+    <img src="image\towerforyou.jpg" alt="towerforyou" class="image"> 
+    </a>
+  </div>
+  <div class="column">
+<a href="https://www.archdaily.com/898893/the-cartographies-of-the-brazilian-pavilion-at-the-venice-biennale-2018" target="_blank">
+    <img src="image\01_Crossbreedings_72dpi.jpg" alt="the the-cartographies-of-the-brazilian-pavilion-at-the-venice-biennale-2018" class="image"> 
+      </a>
+    </div>
+
+    <div class="column">
+<a href="https://bunka.nii.ac.jp/heritages/detail/213292" target="_blank">
+    <img src="image\bunka.jpg" alt="koshimawariosen" class="image"> 
+    </a>
+    </div>
+
+    <div class="column"><a href="http://indexgrafik.fr/paul-cox/paul-cox-carte-du-tendre-perpetuel-2000/    " target="_blank">
+        <img src="image\Paul-Cox-Carte-du-Tendre-perpetuel-2000.jpg" alt="paul-cox" class="image"> 
+        </a></div>
+    
+      </div>     
+
+
+</div>
+</body>
+</html>

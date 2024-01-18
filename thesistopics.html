@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+        background-color: rgb(255, 235, 235);
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+  * {
+  box-sizing: border-box;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}
+        .container {
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-self: left;
+            margin: 60px;
+
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+
+        }
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 100%;
+            right: 0;
+            background-color: #e2eef1;
+            overflow: hidden;
+            width: 0;
+            height: 50%;
+            transition: .5s ease;
+        }
+
+        .container:hover .overlay {
+            width: 100%;
+            left: 0;
+        }
+
+        .text {
+            white-space: nowrap;
+            color: rgb(49, 49, 49);
+            font-size: 20px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .tags{
+            background-color: rgb(0, 255, 0);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row; 
+            align-items: stretch;
+            justify-content: space-around;
+
+          } 
+
+          .h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row; 
+            align-items: flex-end;
+            justify-content: space-around; 
+            margin: 100px;
+            background-color: rgb(0, 255, 0);
+            
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="h2">
+        <a href="index.html">back</a>
+      
+      <div>
+        <a href="thesistopics.html">thesis topics</a>
+      </div>
+      </div>
+      
+
+    <div class="row">
+        <div>
+            <div class="column">
+            <a href="https://warwick.ac.uk/fac/arts/english/currentstudents/undergraduate/modules/fictionnownarrativemediaandtheoryinthe21stcentury/manifestly_haraway_----_a_cyborg_manifesto_science_technology_and_socialist-feminism_in_the_....pdf"
+                target="_blank">
+                <img src="image\cyborg-788x1024.png" alt="cyborg" class="image">
+            </a>
+        </div>
+            <div class="column">
+            <a href="https://www.mathurdacunha.com/soak" target="_blank">
+                <img src="image\01_Crossbreedings_72dpi.jpg" alt="dacunha" class="image">
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://www.youtube.com/watch?v=4ukll2qZOy8" target="_blank">
+                <img src="image\Gilles-Clément-Le-Jardin-du-Tiers-Paysage-Toit-de-la-base-des-sous-marins-Saint-Nazaire-création-pérenne-Estuaire-2009-©-Martin-Argyroglo-_-LVAN.jpeg"
+                    class="image">
+            </a>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="tags">
+    </nav>
+    </div>
+    </div>
+</body>
+
+</html>
