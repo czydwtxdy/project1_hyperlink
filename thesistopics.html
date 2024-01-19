@@ -3,101 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    body {
-        background-color: rgb(255, 235, 235);
-        margin-left: 50px;
-        margin-right: 50px;
-      }
-  * {
-  box-sizing: border-box;
-
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  display: table;
-  clear: both;
-}
-        .container {
-            width: auto;
-            height: auto;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-self: left;
-            margin: 60px;
-
-        }
-
-        .image {
-            width: 100%;
-            height: auto;
-
-        }
-
-        .overlay {
-            position: absolute;
-            bottom: 0;
-            left: 100%;
-            right: 0;
-            background-color: #e2eef1;
-            overflow: hidden;
-            width: 0;
-            height: 50%;
-            transition: .5s ease;
-        }
-
-        .container:hover .overlay {
-            width: 100%;
-            left: 0;
-        }
-
-        .text {
-            white-space: nowrap;
-            color: rgb(49, 49, 49);
-            font-size: 20px;
-            position: absolute;
-            overflow: hidden;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            font-family: 'Times New Roman', Times, serif;
-        }
-        .tags{
-            background-color: rgb(0, 255, 0);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 50px;
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row; 
-            align-items: stretch;
-            justify-content: space-around;
-
-          } 
-
-          .h2{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 50px;
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row; 
-            align-items: flex-end;
-            justify-content: space-around; 
-            margin: 100px;
-            background-color: rgb(0, 255, 0);
-            
-}
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -106,7 +12,7 @@
         <a href="index.html">back</a>
       
       <div>
-        <a href="thesistopics.html">thesis topics</a>
+        <a href="visual.html"> visual precedents</a>
       </div>
       </div>
       
@@ -118,17 +24,54 @@
                 target="_blank">
                 <img src="image\cyborg-788x1024.png" alt="cyborg" class="image">
             </a>
+            <p>
+                A Cyborg Manifesto
+            </p>
         </div>
             <div class="column">
-            <a href="https://www.mathurdacunha.com/soak" target="_blank">
-                <img src="image\01_Crossbreedings_72dpi.jpg" alt="dacunha" class="image">
+            <a href="https://www.mathurdacunha.com/" target="_blank">
+                <img src="image\surveying-baseprint.jpg" alt="dacunha" class="image">
             </a>
+            <p>
+                Floods and Wetness
+            </p>
         </div>
         <div class="column">
             <a href="https://www.youtube.com/watch?v=4ukll2qZOy8" target="_blank">
-                <img src="image\Gilles-Clément-Le-Jardin-du-Tiers-Paysage-Toit-de-la-base-des-sous-marins-Saint-Nazaire-création-pérenne-Estuaire-2009-©-Martin-Argyroglo-_-LVAN.jpeg"
+                <img src="image\Jardin-G-Clément_St-Nazaire_443.jpg"
                     class="image">
             </a>
+            <p>
+                The Third Landscape
+            </p>
+        </div>
+        <div class="column">
+            <a href="https://dunneandraby.co.uk/content/projects/543/0
+            " target="_blank">
+                <img src="image\dunneandraby.jpg"
+                    class="image">
+            </a>
+            <p>
+                Speculative Design
+            </p>
+        </div>
+        <div class="column">
+            <a href="https://davidbenque.com/" target="_blank">
+                <img src="image\cover.jpg"
+                    class="image">
+            </a>
+            <p>
+                Architecture of Choice
+            </p>
+        </div>
+        <div class="column">
+            <a href="https://massdesigngroup.org/research            " target="_blank">
+                <img src="image\mass.jpeg"
+                    class="image">
+            </a>
+            <p>
+                Adobe Blocks 
+            </p>
         </div>
     </div>
 
